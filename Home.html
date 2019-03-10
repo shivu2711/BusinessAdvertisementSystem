@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+
+<body>
+   <div class=wrapper> 
+    <header>
+           <div class="top-header">
+               <div class="container">
+                   <div class="row top-row">
+                       <div class="col-md-4"><a href="#" title="BuisnessAdvertismentSystem"><i><img src="images/logo.png" alt="logo"></i></a></div>
+                       <div class="col-md-8">
+                        <ul class="contact-links">
+                         <li>
+                            <a href="tel:1234567890" title="tel:+911234567890"><i class="fa fa-mobile" aria-hidden="true"></i>+91 1234567890</a>
+                         </li>
+                         <li>
+                             <a href="mailto:abc@gmail.com" title="Email:abc@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>abc@gmail.com</a>
+                         </li>
+                      </ul>
+                       <ul class="account-sites">
+                               <li>
+                                   <a href="#" title="Sign In to Your Account" data-toggle="modal" data-target="#myModal">
+                                       <i class="fa fa-sign-in" aria-hidden="true"></i>Sign In to Your Account
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="#" title="Create a New Account" data-toggle="modal" data-target="#myModal1">
+                                       <i class="fa fa-user" aria-hidden="true"></i>Create a New Account
+                                   </a>
+                               </li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="bottom-header">
+               <div class="container">
+                   <div class="row">
+                       <div class="col-md-12">
+                           <nav>
+                               <ul class="nav-links">
+                                   <li><a href="#" title="HOME"><strong>home</strong></a></li>
+                                   <li><a href="#" title="SEARCH"><strong>search</strong></a></li>
+                                   <li><a href="#" title="about"><strong>about</strong></a></li>
+                                   <li><a href="#" title="CONTACTUS"><strong>contact us</strong></a></li>
+                                   <li><a href="#" title="FAQ"><strong>faq</strong></a></li>
+                               </ul>
+                           </nav>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </header>
+       <!-- Login Modal -->
+  <div class="modal fade login-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content clearfix">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Log In</h4>
+            </div>
+            <div class="modal-body clearfix">
+                <div class="left-block">
+                    <p>Log in instantly with<br> Facebook, and Google+</p>
+                    <div class="social-btn">
+                        <a href="#" class="fb-bg" title="Log In with Facebook"><i class="fa fa-facebook"></i>Log In with Facebook</a>
+                        <a href="#" class="g-bg" title="Log In with Google+"><i class="fa fa-google-plus"></i>Log In with Google+</a>
+                    </div>
+                </div>
+                <div class="left-block">
+                    <p>Log in with<br>Business Advertisement System</p>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Username" type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Password" type="password">
+                    </div>
+                    <a href="#" title="I forgot my password" class="forgot-link">I forgot my password</a>
+                    <a href="#" class="default-btn primary-btn" title="Login">Log In</a>
+                </div>
+            </div>
+            <div class="modal-footer">Don’t have an account? <a title="Sign Up" href="#myModal1" data-toggle="modal" class="sign-up" data-dismiss="modal">Sign Up</a></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade login-modal" id="myModal1" tabindex="-2" role="dialog" >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content clearfix">
+          <div class="modal-header">
+            <h4 class="modal-title">Create a Business Advertisement Account</h4>
+          </div>
+          <div class="modal-body clearfix">
+            <div class="left-block">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <input class="form-control" placeholder="Full Name" type="text">
+                  </div>
+                </div>
+              </div>
+            <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <input class="form-control" placeholder="Email ID" type="email">
+                  </div>
+                </div>
+             </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <input class="form-control" placeholder="Password" type="password">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <textarea class="form-control" rows="5" placeholder="Address"></textarea>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <input class="form-control" placeholder="Phone No." type="text">
+                  </div>
+                </div>
+              
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <input class="form-control" placeholder="Profession" type="text">
+                  </div>
+                </div>
+              
+              </div>
+
+              <button type="button" class="default-btn primary-btn" title="Create an Account">Create an Account</button>
+            </div>
+          </div>
+          <div class="modal-footer">
+            Already have an account? <a class="log-in" data-toggle="modal" href="#myModal" title="Log in" data-dismiss="modal">Log in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+       <main class="index-page">
+
+        <section class="main-banner-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12"><h1><strong>Advertisement Types</strong></h1></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                            <div class="owl-carousel owl-theme main-banner-slider">
+                                    <div class="item">
+                                       <a href="#"title="template"> <i><img src="images/banner01.jpg" alt="image1"></i>
+                                         <h2><strong>lorem</strong></h2>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique non illo labore laboriosam architecto magnam ad facilis libero voluptatibus. Exercitationem, dicta! Modi fugit impedit doloremque, vel voluptate nisi sint.</p>
+                                 
+                                        </a> 
+                                  </div>
+                                 <div class="item">
+                                        <a href="#"title="template"> 
+                                        <i><img src="images/banner02.jpeg" alt="image2"></i>
+                                         <h2><strong>lorem</strong></h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique non illo labore laboriosam architecto magnam ad facilis libero voluptatibus. Exercitationem, dicta! Modi fugit impedit doloremque, vel voluptate nisi sint.</p>
+                                    </a> 
+                                 </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+       </main>   
+   </div>
+    <!-- <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="footer-copyright">© Copy Rights Reserved 2018</span>
+                </div>
+                <div class="col-md-6">
+                    <ul class="footer-links">
+                        <li>
+                            <a href="https://twitter.com/" title="Twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                               
+                            </a>
+                        </li>
+                        <li>
+                         <a href="https://www.instagram.com" title="Instagram">
+                         <i class="fa fa-instagram" aria-hidden="true"></i>
+                     </a>
+
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" title="FaceBook">
+                             <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
