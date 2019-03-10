@@ -187,9 +187,23 @@ footer span {color: #fff;}
 .main-banner-slider .item{padding:0 160px;}
 .main-banner-slider .item i{display: block;width: 100%;margin-bottom:20px;}
 .main-banner-slider .item p{font-size: 18px;line-height: 22px;color: #515151;margin-bottom: 0;}
-.main-banner-slider .owl-next,.main-banner-slider .owl-prev{font-size: 0px;line-height: 4px;background-repeat: no-repeat;    font-size: 0px;line-height: 4px;background-repeat: no-repeat;
-    height: 70px;
-background-size: cover; width: 50px;}
-.main-banner-slider .owl-nav{position: absolute; right: 0;left: 0;top: 50%;display: flex; justify-content: space-between;}
+.main-banner-slider .owl-next,.main-banner-slider .owl-prev{font-size: 0px;line-height: 4px;background-repeat: no-repeat;    font-size: 0px;line-height: 4px;background-repeat: no-repeat;height: 70px;background-size: cover; width: 52px;}
+.main-banner-slider .owl-nav{position: absolute; right: 0;left: 0;top:20%;display: flex; justify-content: space-between;}
 .main-banner-slider .owl-next{background-image: url('../images/right-arrow.png');}
 .main-banner-slider .owl-prev{background-image: url('../images/left-arrow.png');}
+
+/* contact-us page */
+.contact-block h2{margin-bottom:30px;}
+.contact-block p{margin-bottom: 40px;}
+.contact-block .form-row{display: flex;justify-content:center;}
+.contact-block .form-row .contact-form{text-align:center;}
+.contact-block .form-row .contact-form .form-control:focus{box-shadow:none;outline: 0;}
+.contact-block .form-row .contact-form .btn-primary{color:#fff;background-color: #00acc1;padding: 10px 120px;border:0;border-radius:5px;font-size: 22px;line-height: 26px;text-transform: uppercase;}
+.contact-block .form-row .contact-form .btn-primary:hover{background-color: #e53b51;}
+.contact-block .form-row .contact-form .btn-primary:focus{outline:0;}
+
+/* faq -page */
+.faq-block h5{color:#00acc1;text-transform:uppercase;position:relative;transition: all,0.3s;}
+.faq-block h5:after{position:absolute;content:'';top:0;right:0;background-image:url('../images/bottom-arrow.png');height: 40px;width:40px;background-repeat: no-repeat;transform:rotate(180deg);transition:all,0.5s;cursor:pointer;}
+.faq-block h5.collapsed:after{transform:rotate(0deg);}
+.faq-block .card-body{margin-bottom: 20px;}
