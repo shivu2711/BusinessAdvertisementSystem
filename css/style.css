@@ -182,7 +182,7 @@ footer span {color: #fff;}
 .g-bg:after { background: #b71f16; width: 1px; height: 40px; content: ""; position: absolute; left: 42px; }
 .g-bg:before { background: #e45f49; width: 1px; height: 40px; content: ""; position: absolute; left: 41px; }
 
-/* index page */
+/* home page */
 .main-banner-section h1{margin-bottom: 30px;}
 .main-banner-slider .item{padding:0 160px;}
 .main-banner-slider .item i{display: block;width: 100%;margin-bottom:20px;}

@@ -1,3 +1,11 @@
+
+function footerAdj(){
+    var footerH=$('footer').outerHeight();
+    $("footer").css({"margin-top": -footerH});
+    $(".wrapper").css({"padding-bottom":footerH});
+}
+
+
 $(document).ready(function() {
     
 
@@ -10,9 +18,11 @@ $(document).ready(function() {
     	dots: false,
     	
     });
-
+   
 
     });
-
+$(window).resize(function(){
+footerAdj();
+});
 
 
